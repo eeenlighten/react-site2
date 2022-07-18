@@ -1,5 +1,5 @@
 #textType {
-    width: 100%;
+
     height: 681px;
     background-color: #F6F8FD;
   }
@@ -24,13 +24,14 @@
     display: inline-block;
   }
   .textType__text h2 {
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: bold;
     margin-bottom: 20px;
   }
   .textType__text p {
     margin-top: 20px;
-    line-height: 1.3;
+    line-height: 1.5;
+    font-size: 16px;
   }
   /* textType_inner */
   .textType__inner {
@@ -43,6 +44,9 @@
   .textType__inner .text {
     width: 45%;
     margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    
   }
   .textType__inner .text h3 {
     margin-bottom: 20px;

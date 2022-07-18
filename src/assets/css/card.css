@@ -1,5 +1,4 @@
 #cardType {
-    width: 100%;
     height: 945px;
     background: #ffffff;
   }
@@ -13,7 +12,7 @@
   #cardType > p {
     font-size: 22px;
     font-weight: 300;
-    margin: 70px;
+    margin: 40px;
     text-align: center;
   }
   /* card_inner */
@@ -34,7 +33,7 @@
   }
   /* card_body */
   .card__body {
-    padding: 24px;
+    padding: 27px;
     text-align: center;
     position: relative;
     top: -100px;
@@ -43,6 +42,10 @@
   .card_color01 {
     background-color: #9bb3d7;
     opacity: 0.7;
+  }
+  .card_color01 a {
+    text-decoration: underline;
+    display: inline-block;
   }
   .card_color02 {
     background-color: #cdeeff;
@@ -53,13 +56,14 @@
     opacity: 0.7;
   }
   /* title */
-  .card__body0 .title {
+  .card__body .title {
     font-size: 24px;
     font-weight: 800;
     color: #103b31;
+    line-height: 1.2;
   }
   /* btn */
   .card__body .btn {
     color: #103b31;
+    font-size: 14px;
   }
-  

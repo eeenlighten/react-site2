@@ -13,16 +13,16 @@ import Contents from './components/Contents';
 function App() {
   return (
     <>
-     <Header />
+     <Header fonts="gmarket"/>
      <Contents>
-       <Slider />
-       <Text />
-       <Card />
-       <Img />
-       <Banner />
-       <Review />
+       <Slider fonts={["slider_wrap", "gmarket"]}/>
+       <Text fonts="gmarket"/>
+       <Card skill={["section", "gmarket"]} />
+       <Img fonts="gmarket"/>
+       <Banner skill={["section", "gmarket"]} />
+       <Review fonts="gmarket" />
      </Contents>
-     <Footer />
+     <Footer skill={["section", "gmarket"]} />
     </>
   )
 }

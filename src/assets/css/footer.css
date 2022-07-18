@@ -1,6 +1,6 @@
 #footerType {
     height: 400px;
-    width: 100%;
+
     background: #fff;
   }
   /* footer_inner */
@@ -21,18 +21,27 @@
   }
   /* footer_info */
   .footer_info {
-    font-size: 22px;
     text-align: left;
   }
+  .footer_info h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
   .footer_info ul {
-    font-size: 16px;
-    margin: 20px 0;
+    margin: 30px 0;
+    line-height: 1.5;
+    font-size: 16px;    
+    color: #777;
+    font-family: 'NexonLv1Gothic';
   }
   /* footer_address */
   .footer__address {
     border-top: 1px solid #ccc;
     margin-top: 50px;
     padding-top: 50px;
+    color: #777;
+    font-family: 'GmarketSans';
+    font-weight: 300; 
   }
   /* icon */
   .icon {

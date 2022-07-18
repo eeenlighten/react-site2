@@ -46,8 +46,8 @@
     top: 50%;
     transform: translateY(-50%);
     width: 27px;
-    height: 39px;
-    background: url(../images/slider_icon.svg);
+    height: 38px;
+    background: url(../images/slider_icon.png);
 }
 .slider__arrow .left{
     left: 10px;

@@ -1,5 +1,4 @@
 #headerType {
-    width: 100%;
     height: 200px;
     background-color: #fff;
   }
@@ -26,6 +25,7 @@
     padding: 5px 20px;
   }
   .header__menu ul li a {
+    font-weight: 400;
     padding: 10px;
     transition: background 0.3s;
   }
