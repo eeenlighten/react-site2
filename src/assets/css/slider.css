@@ -66,7 +66,7 @@
 .slider__dot a {
     width: 14px;
     height: 14px;
-    background: url(../images/slider_icon.svg);
+    background: url(../images/slider_icon.png);
     display: inline-block;
     margin: 2px;
 }
